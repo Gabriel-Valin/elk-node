@@ -1,0 +1,25 @@
+{
+  "name": "elk-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go:dev": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register --exit-child ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elastic-apm-node": "^4.4.1",
+    "express": "^4.18.2",
+    "winston": "^3.11.0",
+    "winston-elasticsearch": "^0.17.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  }
+}

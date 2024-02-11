@@ -1,0 +1,4 @@
+export enum TASKS_APM_OPERATIONS {
+  CREATE = "TASKS::CREATE",
+  UPDATE = "TASKS::UPDATE",
+}
